@@ -11,7 +11,7 @@ import (
 var numbersFromString []string
 
 func main() {
-	fileLines := readFile("../data/day1-1.txt")
+	fileLines := readFile("../data/day1.txt")
 	count := 0
 	for _, line := range fileLines {
 		count = count + getIntsFromString(line)
